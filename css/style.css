@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.beige-card {
+  background-color: rgb(255, 242, 225);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+
+}
+
+.footer {
+  /* This pushes the footer to the bottom */
+  margin-top: auto;
+}
